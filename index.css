@@ -1,0 +1,101 @@
+body {
+    background-image: url('pics/Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.gitlink {
+    text-decoration: none;
+    color: #fafae0;
+    text-align: right;
+    font-family: 'basic';
+    transition: color 0.3s ease;
+    margin-right: 30px;
+}
+
+.gitgitlink {
+    margin-right: 15px;
+}
+
+.gitlink:hover {
+    color: #a2d5f2;
+}
+
+.orphflag {
+    max-width: 30%;
+    margin-left: -10px;
+    transition: transform 0.3s ease;
+}
+
+.orphflag:hover {
+    transform: scale(1.05);
+}
+
+.headheader {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.headingtxt {
+    color: #fafae0;
+    font-family: 'bebas neue';
+    font-size: 75px;
+    margin-left: 10px;
+    margin-top: -75px;
+    position: relative;
+}
+
+.headingsubtxt {
+    color: #fafae0;
+    font-family: 'basic';
+    font-size: 20px;
+    margin-left: 10px;
+    position: relative;
+    margin-top: -8%;
+}
+
+.maintxtandpass {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aupass {
+    max-width: 75%;
+    rotate: 5deg;
+    margin-top: 50px;
+}
+
+.aupasssubtxt {
+    rotate: 5deg;
+    color: #fafae0;
+    font-family: 'google sans';
+    transform: translate(2.76%);
+}
+
+.passau {
+    margin-right: 20px;
+    transition: transform 0.3s ease;
+}
+
+.passau:hover {
+    transform: scale(1.05);
+}
+
+.golink {
+    text-decoration: none;
+    background: linear-gradient(to right, #90e0ef, #caf0f8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: color 0.5s ease;
+}
+
+.golink:hover {
+    background: linear-gradient(to right, #caf0f8, #90e0ef);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
