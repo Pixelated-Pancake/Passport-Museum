@@ -1,0 +1,42 @@
+body {
+    background-image: url('pics/Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-size: 200px;
+    margin-top: 30px;
+    font-family: 'bebas neue';
+    color: #fafae0;
+    margin-left: 30px;
+}
+
+h3 {
+    font-size: 50px;
+    margin-top: -150px;
+    position: relative;
+    margin-left: 30px;
+    color: #fafae0;
+    font-family: 'bebas neue';
+}
+
+.linklink {
+    text-decoration: none;
+    background: linear-gradient(to right, #90e0ef, #caf0f8);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+
+
+.orpheus {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: -350px;
+    margin-right: 50px;
+}
