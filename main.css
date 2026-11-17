@@ -1,0 +1,27 @@
+body {
+    background-image: url('pics/Background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sidebar {
+
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidebar a {
+    color: #fafae0;
+    text-decoration: none;
+    font-family: 'bebas neue';
+    font-size: 35px;
+}
+
+.maincontent {
+    margin-left: 100px;
+    color: #fafae0;
+}
