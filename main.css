@@ -71,22 +71,24 @@ p {
     max-width: 1%;
 }
 
-.passportcontainer img {
-    aspect-ratio: 88/125;
-    max-width: 20%;
-    border-radius: 5%;
-    transition: transform 0.3s ease;
-}
-
-.passportcontainer img:hover {
-    transform: scale(1.05);
-}
-
 .passportcontainer {
     display: flex;
     gap: 50px;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
     transform: translateX(-150px);
 }
 
+.passportcontainer a img {
+    display: block;
+    aspect-ratio: 88 / 125;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 5%;
+    transition: transform 0.3s ease;
+}
 
+.passportcontainer a img:hover {
+    transform: scale(1.05);
+}
