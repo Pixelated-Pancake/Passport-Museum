@@ -10,11 +10,13 @@ html {
     scroll-behavior: smooth;
 }
 
+
 .sidebar {
 
     position: fixed;
     display: flex;
     flex-direction: column;
+    gap: 20px;
 
 }
 
@@ -33,7 +35,7 @@ html {
 }
 
 .maincontent {
-    margin-left: 200px;
+    margin-left: 250px;
     color: #fafae0;
 }
 
@@ -64,4 +66,27 @@ p {
     aspect-ratio: 16/9;
     max-width: 80%;
 }
+
+.UnordinaryPassports {
+    max-width: 1%;
+}
+
+.passportcontainer img {
+    aspect-ratio: 88/125;
+    max-width: 20%;
+    border-radius: 5%;
+    transition: transform 0.3s ease;
+}
+
+.passportcontainer img:hover {
+    transform: scale(1.05);
+}
+
+.passportcontainer {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    transform: translateX(-150px);
+}
+
 
