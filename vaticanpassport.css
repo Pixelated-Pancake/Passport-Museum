@@ -5,3 +5,87 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.everything {
+    display: flex;
+    flex-direction: row;
+}
+
+.maintxt {
+    margin-left: 30px;
+    flex: 1;
+    max-width: 70%;
+}
+
+h1 {
+    font-family: 'bebas neue';
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #90e0ef;
+}
+
+p {
+    font-family: 'basic';
+    font-size: 20px;
+    max-width: 90%;
+    color: #fafae0;
+}
+
+.passport {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    position: relative;
+
+}
+
+.passport img {
+    aspect-ratio: 88/125;
+    width: 400px;
+    height: auto;
+    position: relative;
+    margin-top: 5%;
+    flex-shrink: 0;
+    object-fit: contain;
+    border-radius: 5%;
+}
+
+h2 {
+    font-family: 'bebas neue';
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #fafae0;
+    margin-bottom: -0.25%;
+    margin-top: 1%;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    transition: color 0.3s ease;
+    gap: 20px;
+}
+
+h2:hover {
+    color: #90e0ef
+}
+
+.mainlink {
+    text-decoration: none;
+}
+
+.vid {
+    aspect-ratio: 16/9;
+    max-width: 90%;
+}
+
+.headerlogo {
+    height: 1em;
+    width: auto;
+    position: relative;
+    top: -5px;   
+    left: 10px; 
+}
+
+.VOA {
+    text-decoration: none;
+    color: #90e0ef;
+}
